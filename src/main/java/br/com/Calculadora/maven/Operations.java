@@ -21,7 +21,7 @@ public class Operations {
 	}
 
 	public double add() {
-        return number1 + number2;
+        	return number1 + number2;
    	 }
 
    	 public double subtract() {
