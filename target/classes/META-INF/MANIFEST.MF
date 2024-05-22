@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 17
+Implementation-Title: maven
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor: Acme Corporation
+Main-Class: br.com.Calculadora.maven.App
+Created-By: Maven Integration for Eclipse
+Specification-Title: maven
+Specification-Vendor: Acme Corporation
+Specification-Version: 0.0.1-SNAPSHOT
+
