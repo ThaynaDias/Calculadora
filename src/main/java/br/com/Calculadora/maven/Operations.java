@@ -2,7 +2,7 @@ package br.com.Calculadora.maven;
 
 public class Operations {
 	
-	private double number1, number2;
+ 	private double number1, number2;
 
 	public double getNumber1() {
 		return number1;
@@ -22,19 +22,19 @@ public class Operations {
 
 	public double add() {
         return number1 + number2;
-    }
+   	 }
 
-    public double subtract() {
-        return number1 - number2;
-    }
+   	 public double subtract() {
+        	return number1 - number2;
+    	}
 
-    public double multiply() {
-        return number1 * number2;
-    }
+    	public double multiply() {
+        	return number1 * number2;
+   	}
 
-    public double divide() {
-        if (number2 == 0) {
-            throw new ArithmeticException("ERROR_DIVISION_BY_ZERO");
+    	public double divide() {
+        	if (number2 == 0) {
+           	 System.out.println("ERROR_DIVISION_BY_ZERO");
         }
 
         return number1 / number2;
